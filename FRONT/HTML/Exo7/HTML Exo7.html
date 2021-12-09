@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS Exo7.css">
+</head>
+<body>
+    <div>
+        <p id="titre1"> <mark id="non">Votre identité</mark></p>
+    </div>
+    <section id="identite" class="container">
+        <ol class="item">
+            <li >
+                <form>
+                <label for="nom"> Nom :</label>
+                <input placeholder="Nom" type="text" name="nom">
+                </form>
+            </li>
+            <li>
+                <form>
+                    <label for="prenom"> Prénom :</label>
+                    <input placeholder="Prénom" type="text" name="prenom">
+                </form>
+            </li>
+            <li>
+                <form>
+                    <label for="mail">Adresse mail :</label>
+                    <input placeholder="Adresse mail" type="text" name="mail">
+                </form>
+            </li>
+        </ol>
+    </section>
+    <div
+    ><p id="titre2"><mark id="non2">Adresse de livraison</mark></p>
+    </div>
+    <section id="livraison" class="container">
+        <ol class="item">
+            <li>
+                <form>
+                    <label for="adresse">Adresse</label>
+                    <textarea name="" id="" cols="15" rows="5"></textarea>
+                </form>
+            </li>
+            <li>
+                <form>
+                    <label for="codepostal">Code postal :</label>
+                    <input type="text" placeholder="Code postal" name="codepostal">
+                </form>
+            </li>
+            <li>
+                <form>
+                    <label for="ville">Ville :</label>
+                    <input type="text" placeholder="Ville" name="ville">
+                </form>
+            </li>
+        </ol>
+    </section>
+    <div>
+        <p id="titre3"><mark id="non3">Informations de réglement</mark></p>
+    </div>
+    <section id="reglement" class="container">
+        <ol class="item">
+            <li>
+                <form >
+                    <p>Type de carte bancaire :</p>
+                        <div class="container" id="bouton">
+                            <div class="item">
+                                <input type="radio" value="VISA" name="oui">
+                                <label for="VISA">VISA</label>
+                            </div>
+                            <div class="item">
+                                <input type="radio" value="mastercard" name="oui">
+                                <label for="mastercard">Mastercard</label>
+                            </div>
+                        </div>
+                    </form>
+            </li>
+            <li>
+                <form>
+                    <label for="numcarte">Numéro de carte</label>
+                    <input type="text" placeholder="Numéro de carte" name="numcarte">
+                </form>
+            </li>
+            <li>
+                <form>
+                    <label for="codesecu">Code de sécurité</label>
+                    <input type="text" placeholder="Code de sécurité" name="codesecu">
+                </form>
+            </li>
+            <li>
+                <form>
+                    <label for="nomtitu">Nom du titulaire</label>
+                    <input type="text" placeholder="Nom du titulaire" name="nomtitu">
+                </form>
+            </li>
+        </ol>
+    </section>
+    <button>J'achète !</button>
+    
+</body>
+</html>

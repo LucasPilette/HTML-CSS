@@ -1,0 +1,37 @@
+
+#identite{
+    background-color: #2574A9;
+    display: flex;
+    align-items: center;
+}
+#livraison{
+    background-color: #9A12B3;
+    display: flex;
+    align-items: center;
+}
+#reglement{
+    background-color: #DB0A5B;
+    display: flex;
+    align-items: center;
+}
+#bouton{
+    align-items: flex-start;
+}
+#titre1{
+    margin-left: 10px;
+}
+#titre2{
+    margin-left: 10px;
+}
+#titre3{
+    margin-left: 10px;
+}
+#non{
+    background-color: #2574A9;
+}
+#non2{
+    background-color: #9A12B3;
+}
+#non3{
+    background-color: #DB0A5B;
+}
