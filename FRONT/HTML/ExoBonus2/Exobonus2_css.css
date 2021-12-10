@@ -11,7 +11,7 @@ body{
     place-items: center;
     height: 100vh;
     background: #E4BC79;
-    background: linear-gradient(to right, #444446, #524848, #531f1f);
+    background: linear-gradient(to right, #ffd89b, #19547b);
 }
 .container {
     display: flex;
@@ -35,7 +35,7 @@ img {
     box-shadow: 0 .1rem 0.5rem rgba(255, 255, 255, 0.466);
     border-radius: 0.5em;
     background: #B6B6B6;
-    background: linear-gradient(to right, #c7c7c5, #888887, #636262);
+    background: linear-gradient(to right,#bdc3c7, #2c3e50,);
 }
 .card:hover{
     box-shadow: 0 .2rem 1rem rgba(255, 255, 255, 0.466);
@@ -97,4 +97,13 @@ img {
 h4{
     margin: 1em;
 }
-
+.important{
+    background:linear-gradient(to top right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+.important2{
+    background-color: #ffa69e;
+    background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+}
+.important3{
+    background: linear-gradient(to top right, #504f4f, #0f9b0f);
+}
