@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
 *,
 *::before,
 *::after {
-box-sizing: border-box;
-padding: 0;
+    box-sizing: border-box;
+    padding: 0;
 }
+
 .flip-card {
     background-color: transparent;
     width: 348.44px;
@@ -13,6 +15,7 @@ padding: 0;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
 }
+
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -21,34 +24,49 @@ padding: 0;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
+
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-.flip-card-front, .flip-card-back {
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+
 .flip-card-front {
     background-color: #bbb;
     color: black;
 }
+
 .flip-card-back {
-    background: linear-gradient(to top right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     color: black;
     transform: rotateY(180deg);
     border-radius: 0.5em;
     text-align: center;
+    font-family: 'Playfair Display SC', serif;
 }
-.txtcarte{
+
+#odin {
+    background: linear-gradient(to top right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+#thor {
+    background: linear-gradient(358.7deg, rgba(42, 136, 157, 1) 1.7%, rgba(122, 197, 214, 1) 51.1%, rgba(211, 232, 242, 1) 95.5%);
+}
+
+.txtcarte {
     margin-top: 75px;
     margin-inline: 75px;
-    font-size: 120%;
+    font-size: 110%;
     font-family: 'Shadows Into Light', cursive;
 }
-body{
+
+body {
     font-family: 'Play', sans-serif;
     display: grid;
     place-items: center;
@@ -56,6 +74,7 @@ body{
     background: #E4BC79;
     background: linear-gradient(to right, #ffd89b, #19547b);
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -64,12 +83,14 @@ body{
     margin-block: 2rem;
     gap: 2rem;
 }
+
 img {
     max-width: 100%;
     display: block;
     object-fit: cover;
     margin-bottom: 0.8em;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -78,79 +99,96 @@ img {
     box-shadow: 0 .1rem 0.5rem rgba(255, 255, 255, 0.466);
     border-radius: 0.5em;
     background: #B6B6B6;
-    background: linear-gradient(to right,#bdc3c7, #2c3e50,);
+    background: linear-gradient(to right, #bdc3c7, #2c3e50, );
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0 .2rem 1rem rgba(255, 255, 255, 0.466);
 }
+
 .card__body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: .5rem;
 }
+
 .tag {
-    align-self:flex-start;
+    align-self: flex-start;
     padding: .25em .75em;
     border-radius: 1em;
     font-size: 0.85rem;
     margin-left: 1em;
 }
-.tag + .tag {
+
+.tag+.tag {
     margin-left: .5em;
 }
+
 .tag-brown {
     background: #D1913C;
     background: linear-gradient(to bottom, #FFD194, #D1913C);
     color: #fafafa;
 }
+
 .tag-blue {
     background: #56CCF2;
     background: linear-gradient(to bottom, #2F80ED, #56CCF2);
     color: #fafafa;
 }
+
 .tag-green {
     background: #149125;
     background: linear-gradient(to bottom, #20df49, #07802f);
     color: #fafafa;
 }
+
 .tag-pink {
     background: coral;
     background: linear-gradient(to bottom, #F0A9AB, #EE5A53);
     color: #fafafa;
 }
+
 .tag-white {
     background: linen;
     background: linear-gradient(to bottom, rgb(201, 199, 199), rgb(99, 98, 98));
     color: #fafafa;
 }
+
 .tag-purple {
     background: mediumorchid;
     background: linear-gradient(to bottom, #AA83CB, #785CB4);
     color: #fafafa;
 
 }
+
 .card__body h4 {
     font-size: 1.5rem;
     text-transform: capitalize;
 }
-.txt{
+
+.txt {
     margin: 1em;
 }
-h4{
+
+h4 {
     margin: 1em;
 }
-.important{
-    background:linear-gradient(to top right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+
+.important {
+    background: linear-gradient(to top right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
 }
-.important2{
+
+.important2 {
     background-color: #ffa69e;
     background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
 }
-.important3{
+
+.important3 {
     background: linear-gradient(to top right, #504f4f, #0f9b0f);
 }
-.lien{
+
+.lien {
     text-decoration: none;
     color: black;
 }
