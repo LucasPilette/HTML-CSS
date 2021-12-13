@@ -1,0 +1,33 @@
+.container1{
+    display: flex;
+    min-height: 50vh;
+}
+#d1{
+    flex-grow: 5;
+    background:  #008000;
+}
+#d2{
+    flex-grow: 3.5;
+    background: #FF0000;
+}
+#d3{
+    flex-grow: 1.5;
+    background: #0000FF;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+#d4{
+    flex-grow: 5;
+    background: #800080;
+}
+#d5{
+    flex-grow: 3.5;
+    background: #FFFF00;
+}
+#d6{
+    flex-grow: 1.5;
+    background: #FFC0CB;
+}
